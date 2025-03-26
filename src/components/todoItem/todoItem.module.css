@@ -1,0 +1,22 @@
+.garbage {
+  width: 20px;
+  height: 20px;
+}
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 6px;
+  text-transform: uppercase;
+  color: #9b9b9b;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.todoBtns {
+  display: flex;
+  gap: 10px;
+}
+.completed {
+  text-decoration: line-through;
+}

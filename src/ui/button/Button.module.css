@@ -1,0 +1,14 @@
+.myButton {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.myButton:hover {
+  outline: 1px solid #ccc;
+  background-color: white;
+}

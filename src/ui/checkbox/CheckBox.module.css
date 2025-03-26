@@ -1,0 +1,25 @@
+.checkBox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkBox input[type='checkbox'] {
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.checkBox input[type='checkbox']:checked {
+  background: url(../../assets/img/icon1.svg) center no-repeat;
+  background-color: #fff;
+}
+
+.checkBoxLabel {
+  margin-left: 10px;
+}

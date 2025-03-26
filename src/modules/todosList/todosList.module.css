@@ -1,0 +1,28 @@
+.todoList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow-y: auto;
+}
+.todoListFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+.todoListFooter > button {
+  padding: 5px;
+  font-size: 12px;
+}
+.filterBtns {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.filterBtns > button {
+  padding: 5px;
+  font-size: 12px;
+}
